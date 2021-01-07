@@ -8,6 +8,8 @@ body{
 
 .name {background-color: white;
     font-family: cursive;
+    font-weight: bolder;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +34,67 @@ body{
  }
  
  .sticker {
+     height: 200px;
+     width: 500px;
+     display: grid;
+     grid-template-rows: 2fr 1fr 1fr;
     background-color: red;
     border-radius: 10px;
     display: grid;
-    padding-bottom: 10px;
 }
+button {
+    display: flex;
+    justify-content: center;
+}
+.namebutton {
+    background-color: silver;
+}
+.probutton {
+    background-color: teal;
+}
+
+.background-colors {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.inputName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(228, 237, 210);
+    
+}
+
+button {
+    font-family: fantasy;
+    text-transform: uppercase;
+} 
+
+.bluebutton {
+    background-color: blue;
+}
+
+.blackbutton {
+    background-color: black;
+    color: white;
+}
+
+.orangbutton {
+    background-color: orange;
+}
+
+.magentabutton {
+background-color: magenta;
+}
+
+.proinput {
+    text-align: center;
+    background-color: rgb(228, 237, 210);
+}
+
  * {
      box-sizing: border-box;
  }
