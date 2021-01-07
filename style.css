@@ -76,15 +76,15 @@ button {
 .bluebutton {
     background-color: blue;
 }
+.orangebutton {
+    background-color: orange;
+}
 
 .blackbutton {
     background-color: black;
     color: white;
 }
 
-.orangbutton {
-    background-color: orange;
-}
 
 .magentabutton {
 background-color: magenta;
